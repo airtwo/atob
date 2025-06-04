@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Cenith Take Home</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="module" src="js/app.js"></script>
+  </head>
+
+  <body>
+    <h1>A to B</h1>
+    <div data-controller="game">
+      <div data-game-target="board"></div>
+      <div class="info-bar">
+        <div class="health">
+          <label>Health</label>
+          <div class="health-bar-container">
+            <div class="health-bar" data-game-target="healthBar"></div>
+          </div>
+          <div class="health-deduction" data-game-target="healthDeduction"></div>
+        </div>
+        <div class="moves-left">
+          <label>Moves Remaining</label>
+          <span class="moves-left-bar" data-game-target="movesLeftBar"></span>
+          <div class="moves-deduction" data-game-target="movesDeduction"></div>
+        </div>
+      </div>
+      <div data-game-target="modal" class="modal hidden">
+        <div>
+          <h2 data-game-target="modalTitle"></h2>
+          <p data-game-target="modalMessage"></p>
+          <p>Press <span class="key">R</span> to begin again.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
