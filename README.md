@@ -10,7 +10,7 @@ This game is built using vanilla HTML & CSS to construct the layout and UI, and 
 
 ## Requirements
 
-The only requirement to run this game locally is to start a basic local web server from the root directory. We need a local web server to satisfy CORS requirements of modern browsers, so that we can serve local assets. In the example below we are using Python 3, but any local server should do.
+The only requirement to run this game locally is to start a basic local web server from the root directory. We need a local web server to satisfy CORS requirements of modern browsers, so that we can serve local assets. In the example below we are using Python 3, but any local web server should do.
 
 ## Running the game
 
