@@ -1,6 +1,6 @@
 # A to B
 
-In this game, you are given a starting point A on one side of the grid, and an ending point B on the other side of the grid. Your objective is to get from point A to point B.  Each grid space is considered "Blank”, “Speeder”, “Lava”, “Mud”, and has corresponding consequences. You start out with 200 points of health and 450 moves. 
+In this game, you are given a starting point A on one side of the grid, and an ending point B on the other side of the grid. Your objective is to get from point A to point B.  Each grid space is considered "Blank”, “Speeder”, “Lava”, or “Mud”, and has corresponding consequences. You start out with 200 points of health and 450 moves. 
 
 Watch your health.
 
