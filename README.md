@@ -4,9 +4,13 @@ In this game, you are given a starting point A on one side of the grid, and an e
 
 Watch your health.
 
+## Overview
+
+This game is built using vanilla HTML & CSS to construct the layout and UI, and StimulusJS to power the game mechanics.
+
 ## Requirements
 
-The only requirements to run this game locally are to have Python 3 installed on your machine.
+The only requirement to run this game locally is to start a basic local web server from the root directory. We need a local web server to satisfy CORS requirements of modern browsers, so that we can serve local assets. In the example below we are using Python 3, but any local server should do.
 
 ## Running the game
 
